@@ -1,5 +1,9 @@
 /* Css for our teams */
-.jumbotron {
-background-color: #0093E9;
-background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+.jumbotron{
+  background: rgb(226,41,41);
+background: linear-gradient(0deg, rgba(226,41,41,1) 0%, rgba(142,13,13,1) 7%, rgba(249,28,28,1) 14%);
+}
+.jesse{
+  font-weight: bold;
+  font-color:black;
 }
