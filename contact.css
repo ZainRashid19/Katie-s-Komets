@@ -4,7 +4,11 @@
 }
 
 .left{
-  text-align: left;
+  text-align: center;
   font-size: 20px;
     font-weight: bold;
+}
+
+body{
+background-image: url("https://onaircode.com/wp-content/uploads/2017/11/Tesselation-Transition.jpg");
 }
