@@ -2,6 +2,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url("https://www.xmple.com/wallpaper/linear-highlight-black-gradient-red-1920x1080-c2-000000-8b0000-l-33-a-90-f-21.svg");
 }
 .text {
   color: white;
@@ -15,4 +16,14 @@ body {
   height:200px;
   width:200px;
   display: block;
+}
+
+.testing{
+  color:black;
+  font-size:35px;
+}
+
+.ok{
+  color:black;
+  font-size:28px;
 }
