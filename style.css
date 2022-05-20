@@ -3,14 +3,7 @@
   background: rgb(226,41,41);
 background: linear-gradient(0deg, rgba(226,41,41,1) 0%, rgba(142,13,13,1) 7%, rgba(249,28,28,1) 14%);
 }
-.font{
+.jesse{
   font-weight: bold;
   font-color:black;
-}
-
-.Big{
-  font-style: oblique;
-}
-.small{
-  font-size: 50px;
 }

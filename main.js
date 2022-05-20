@@ -12,4 +12,3 @@ fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576
       `;
     });
   });
-/* testing for contact*/
