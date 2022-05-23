@@ -1,56 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
-  </script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <title>Our sponsor</title>
   <link rel="stylesheet" href="sponsor.css">
 </head>
 
 <body>
   <html>
-  <div class="jumbotron">
+  <div class="container">
+
     <div class="text-center">
       <h1>Our sponsors</h1>
-      <p><a href="index.html">index</a></p>
-      <p><a href="home.html">home</a></p>
+      <p><a href="sponsors.html">Sponsors page</a></p>
+      <p><a href="contact.html">Contact page</a></p>
+      <p><a href="teams.html">Home page</a></p>
+      <p><a href="Teams.html">Our teams page</a></p>
+      <p><a href="schedule.html">schedule</a></p>
+    </div>
 
-      <div class="slider">
 
-        <a href="#slide-1">1</a>
-        <a href="#slide-2">2</a>
-        <a href="#slide-3">3</a>
-        <a href="#slide-4">4</a>
-        <a href="#slide-5">5</a>
-
-        <div class="slides">
-          <div id="slide-1">
-            <img class="bmw" src="https://picsum.photos/536/354" alt="">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://carouselhousepa.com/" target="_blank">
+          <img src="https://www.katieskomets.org/images/carousel.gif" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <p class="ok">Carousel House</p>
           </div>
-          <div id="slide-2">
-              <img class="bmw" src="https://picsum.photos/536/354" alt="">
-          </div>
-          <div id="slide-3">
-              <img class="bmw" src="https://picsum.photos/536/354" alt="">
-          </div>
-          <div id="slide-4">
-              <img class="bmw" src="https://picsum.photos/536/354" alt="">
-          </div>
-          <div id="slide-5">
-              <img class="bmw" src="https://picsum.photos/536/354" alt="">
+        </div>
+        <div class="carousel-item">
+          <a href="http://www.katiekirlinfund.org/" target="_blank">
+          <img src="https://www.katieskomets.org/images/katiekirlin.jpg" class="d-block w-100" alt="...">
+        </a>
+          <div class="carousel-caption d-none d-md-block">
+            <p class="testing">Katie Kirlin Fund</p>
           </div>
         </div>
       </div>
-
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
   </div>
-    <script src="main.js"></script>
+<button class="btn btn-success mt-4" onclick= "showForm()" > Click here!</button>
+<h3 onclick= "showForm()" > writing this for testing the javascript </h3>
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 
 </html>

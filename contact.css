@@ -1,0 +1,19 @@
+.shoot{
+  font-size: 50px;
+    font-weight: heavy;
+}
+
+.left{
+  text-align: center;
+  font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* testing for contact*/
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
