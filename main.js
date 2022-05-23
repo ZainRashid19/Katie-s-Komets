@@ -12,18 +12,3 @@ fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576
       `;
     });
   });
-/* testing for contact*/
-
-
-/* Javascript for sponsors*/
-function showForm()
-  {
-    if (document.getElementById("contactForm").style.display == "block")
-    {
-      document.getElementById("contactForm").style.display = "none";
-    }
-    else
-    {
-    document.getElementById("contactForm").style.display = "block";
-    }
-  };
